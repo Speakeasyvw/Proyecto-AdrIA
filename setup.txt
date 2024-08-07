@@ -1,0 +1,35 @@
+1 - Abrir terminal y ejecutar: python -m venv env
+
+----------------------------------------------------------------------------------
+
+2 - Activar el env: env/scripts/activate 
+
+----------------------------------------------------------------------------------
+
+3 - Si nos da un error por falta de autorización ejecutamos como administrador 
+el siguiente comando en el PowerShell de Windows:
+
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+luego apretamos "s" para confirmar
+Luego repetimos el paso 2
+
+----------------------------------------------------------------------------------
+
+4 - Instalar dependencias con el comando: pip install -r requirements.txt
+
+-----------------------------------------------------------------------------------
+
+---
+
+A - Para exportar un requirements.txt se hace de la siguiente manera: pip freeze > requirements.txt
+
+-----------------------------------------------------------------------------------
+
+B - Recuerden poner su Api Key en el archivo .env.
+
+-----------------------------------------------------------------------------------
+
+C - Recuerden ejecutar todos los comandos de la notebook embeddings.ipynb para crear la db de Chroma
+
+5- Ejecutar este comando para correr el bot en local: streamlit run app.py
