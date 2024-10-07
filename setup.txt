@@ -1,4 +1,6 @@
-1 - Abrir terminal y ejecutar: python -m venv env
+0 - Descargar el repositorio
+---------------------------------------------------------------------------------
+1 - Abrir terminal y ejecutar: python -m venv env o py -m venv env
 
 ----------------------------------------------------------------------------------
 
@@ -25,8 +27,8 @@ Luego repetimos el paso 2
 A - Para exportar un requirements.txt se hace de la siguiente manera: pip freeze > requirements.txt
 
 -----------------------------------------------------------------------------------
-
-B - Recuerden poner su Api Key en un archivo .env .
+ 
+B - Recuerden poner su Api Key en un archivo .env . Poner variable OPENAI_API_KEY="" con su respectiva apikey entre comillas
 
 -----------------------------------------------------------------------------------
 
